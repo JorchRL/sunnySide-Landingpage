@@ -2,22 +2,23 @@ import "./app.scss";
 const App = () => {
   return (
     <div className='container'>
+      {/* NAVBAR & NAVMENU */}
+      <div className='navbar flex'>
+        <h2 className='logo'>sunnyside</h2>
+        <div className='menuContainer'>
+          <div className='notchContainer'>
+            <div className='notch'></div>
+          </div>
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li id='highlight'>CONTACT</li>
+          </ul>
+        </div>
+      </div>
       {/* HERO */}
       <header className='hero'>
-        <div className='navbar flex'>
-          <h2 className='logo'>sunnyside</h2>
-          <div className='menuContainer'>
-            <div className='notchContainer'>
-              <div className='notch'></div>
-            </div>
-            <ul>
-              <li>About</li>
-              <li>Services</li>
-              <li>Projects</li>
-              <li id='highlight'>CONTACT</li>
-            </ul>
-          </div>
-        </div>
         <div className='title'>
           <h2>WE ARE CREATIVES</h2>
           <div className='arrow'></div>
