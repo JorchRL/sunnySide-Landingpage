@@ -7,11 +7,14 @@ const App = () => {
         <div className='navbar flex'>
           <h2 className='logo'>sunnyside</h2>
           <div className='menuContainer'>
+            <div className='notchContainer'>
+              <div className='notch'></div>
+            </div>
             <ul>
               <li>About</li>
               <li>Services</li>
               <li>Projects</li>
-              <li>CONTACT</li>
+              <li id='highlight'>CONTACT</li>
             </ul>
           </div>
         </div>
