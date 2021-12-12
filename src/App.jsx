@@ -69,8 +69,48 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section className='testimonials flex'></section>
-      <section className='pics grid'></section>
+      {/* TESTIMONIALS */}
+      <section className='testimonials'>
+        <h2 className='title'>Client Testimonials</h2>
+        <div className='wrapper flex'>
+          {/* Client 0 */}
+          <div className='clientCard flex-col'>
+            <img id='EmilyB'></img>
+            <p className='clientComment'>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+
+            <h2 className='clientName'>Emily B.</h2>
+            <h4 className='clientRole'>Marketing Director</h4>
+          </div>
+          {/* Client 1 */}
+          <div className='clientCard flex-col'>
+            <img id='ThomasS'></img>
+            <p className='clientComment'>
+              SunnySides's enthusiasm coupled with their keen interest in our
+              brand's success made it a satisfying and enjoyable experience.
+            </p>
+
+            <h2 className='clientName'>Thomas S.</h2>
+            <h4 className='clientRole'>Chief Operating Officer</h4>
+          </div>
+          {/* Client 2 */}
+          <div className='clientCard flex-col'>
+            <img id='JennieF'></img>
+            <p className='clientComment'>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+
+            <h2 className='clientName'>Jennie F.</h2>
+            <h4 className='clientRole'>Bussiness Owner</h4>
+          </div>
+        </div>
+      </section>
+      {/* GALLERY */}
+      <section className='gallery grid'></section>
+      {/* FOOTER */}
       <footer class='footer'></footer>
     </div>
   );
