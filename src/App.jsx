@@ -42,6 +42,30 @@ const App = () => {
           </p>
         </div>
       </section>
+      {/* SERVICES CARDS */}
+      <section className='services flex'>
+        <div className='card flex-col' id='graphicDesign'>
+          <div className='text flex-col'>
+            <h2 className='title'>Graphic Deign</h2>
+            <p className='desc'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              dolorum officiis fugit, sapiente itaque ut dignissimos eos, neque,
+              possimus quaerat tempore ea debitis sit! Incidunt dolores
+              distinctio voluptates consequatur sit?
+            </p>
+          </div>
+        </div>
+        <div className='card flex-col' id='photography'>
+          <div className='text flex-col'>
+            <h2 className='title'>Photography</h2>
+            <p className='desc'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              dolorum officiis fugit, sapiente itaque ut dignissimos eos, neque,
+              possimus quaerat tempore ea debitis sit! Incidunt dolores
+              distinctio voluptates consequatur sit?
+            </p>
+          </div>
+        </div>
       </section>
       <section className='testimonials flex'></section>
       <section className='pics grid'></section>
