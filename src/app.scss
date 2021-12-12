@@ -1,4 +1,29 @@
 
+  .services {
+    // height: 60vh;
+    // border: 2px solid red;
+    #graphicDesign {
+      background-image: url("./images/desktop/image-graphic-design.jpg");
+      background-position: top;
+      background-size: cover;
+    }
+    #photography {
+      background-image: url("./images/desktop/image-photography.jpg");
+      background-position: top;
+      background-size: cover;
+    }
+    .card {
+      height: calc(100vw / 2);
+      width: calc(100vw / 2);
+      justify-content: flex-end;
+
+      .text {
+        z-index: 2;
+        font-family: $fraunces;
+        font-weight: $fraunces-weight-700;
+      }
+    }
+  }
 
 .grid {
   display: grid;
