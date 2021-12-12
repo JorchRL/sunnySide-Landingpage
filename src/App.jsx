@@ -32,8 +32,8 @@ const App = () => {
             nihil officiis.
           </p>
         </div>
-        <div className='tile img' id='eggImg'></div>
-        <div className='tile img' id='cupImg'></div>
+        <div className='img' id='eggImg'></div>
+        <div className='img' id='cupImg'></div>
         <div className='tile text'>
           <h2>Stand out to the right audience</h2>
           <p>

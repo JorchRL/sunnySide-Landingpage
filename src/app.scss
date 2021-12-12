@@ -31,11 +31,9 @@
 
   // INFO CARDS
   .info {
-    // grid-template-columns: 1fr 1fr;
-    // grid-template-rows: 1fr 1fr;
-    // height: 120vh;
-    // width: calc(720px * 2);
-    flex-wrap: wrap;
+    @include mobile {
+      flex-direction: column;
+    }
 
     #eggImg {
       background-image: url("./images/desktop/image-transform.jpg");
@@ -50,15 +48,24 @@
 
     .tile {
       // the dimensions of all tiles will be the same as the pics
-      width: calc(100vw / 2);
-      height: calc(100vw / 2);
-      .img {
+      width: 50vw;
+      height: 50vw;
+      @include mobile {
+        width: 100vw;
+        height: calc(100vh - 100vw);
       }
+
       .text {
         // border: 2px solid coral;
         h2 {
           color: black;
         }
+      }
+    }
+    .img {
+      @include mobile {
+        width: 100vw;
+        height: 100vw;
       }
     }
   }
