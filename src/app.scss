@@ -11,6 +11,12 @@
     background-image: url("./images/desktop/image-header.jpg");
     background-position: bottom;
     background-size: cover;
+    @include mobile {
+      background-image: url("./images/mobile/image-header.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: #3ebfff;
+    }
     .navbar {
       justify-content: space-between;
       font-family: $fraunces;
