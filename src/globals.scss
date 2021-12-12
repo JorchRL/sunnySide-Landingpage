@@ -1,0 +1,39 @@
+$mobileWidth: 375px;
+$desktopWidth: 1440px;
+
+//// Colors ////
+$primaryRed: hsl(7, 99%, 70%);
+$primaryYellow: hsl(51, 100%, 49%);
+// graphic design text
+$primaryDarkTeal: hsl(167, 40%, 24%);
+// footer
+$primaryTeal: hsl(168, 34%, 41%);
+// photo text
+$primaryDarkBlue: hsl(198, 62%, 26%);
+
+$neutralVeryDarkBlue: hsl(212, 27%, 19%);
+$neutralveryDarkGrayishBlue: hsl(213, 9%, 39%);
+$neutralDarkGrayishBlue: hsl(232, 10%, 55%);
+$neutralGrayishBlue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+//// fonts ////
+// barlow
+$text-size: 18px;
+$barlow: "Barlow", sans-serif;
+$barlow-weight-600: 600;
+// fraunces
+$fraunces: "Fraunces", sans-serif;
+$fraunces-weight-700: 700;
+$fraunces-weight-900: 900;
+
+@mixin mobile {
+  @media (max-width: #{mobileWidth}) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
