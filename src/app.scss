@@ -100,6 +100,14 @@
   // TESTIMONIALS
   .testimonials {
     padding: 5% 10%;
+    @include mobile {
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     .title {
       text-align: center;
     }
@@ -108,9 +116,16 @@
       outline: 1px solid red;
       justify-content: space-evenly;
       height: 90vh;
+      @include mobile {
+        flex-direction: column;
+        height: auto;
+      }
       .clientCard {
         outline: 1px solid blue;
         width: 20vw;
+        @include mobile {
+          width: 90vw;
+        }
         img {
           width: 5vw;
           height: 5vw;
@@ -132,11 +147,17 @@
 
         .clientComment {
           padding: 3em 4em;
+          @include mobile {
+            padding: 0;
+          }
         }
         .clientName {
         }
         .clientRole {
           padding: 1em;
+          @include mobile {
+            padding: 0;
+          }
         }
       }
     }
