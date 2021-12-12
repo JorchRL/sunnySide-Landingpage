@@ -74,20 +74,33 @@
   .services {
     // height: 60vh;
     // border: 2px solid red;
+    @include mobile {
+      flex-direction: column;
+    }
     #graphicDesign {
       background-image: url("./images/desktop/image-graphic-design.jpg");
       background-position: top;
       background-size: cover;
+      @include mobile {
+        background-size: 200vw;
+      }
     }
     #photography {
       background-image: url("./images/desktop/image-photography.jpg");
       background-position: top;
       background-size: cover;
+      @include mobile {
+        background-size: 200vw;
+      }
     }
     .card {
       height: calc(100vw / 2);
       width: calc(100vw / 2);
       justify-content: flex-end;
+      @include mobile {
+        width: 100vw;
+        height: calc(200vw * 0.83);
+      }
 
       .text {
         z-index: 2;
