@@ -43,9 +43,9 @@
           top: 0;
           left: 0;
           right: 0;
-          height: 30vh;
+          height: clamp(16em, 30vh, 20em);
           // background-color: white;
-          margin: 35vw 5vw 0vw 5vw;
+          margin: clamp(5em, 10vh, 20em) 5vw 0vw 5vw;
           .notchContainer {
             display: flex;
             justify-content: flex-end;
