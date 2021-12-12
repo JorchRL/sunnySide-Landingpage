@@ -30,22 +30,22 @@ const App = () => {
         <div className='tile text'>
           <h2>Transform your brand</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            suscipit voluptates, consequuntur aspernatur ab quidem cum aliquid
-            officiis ad vel nisi rem nihil. Ab consequuntur nisi incidunt fuga
-            nihil officiis.
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
           </p>
+          <a href='#'>learn more</a>
         </div>
         <div className='img' id='eggImg'></div>
         <div className='img' id='cupImg'></div>
         <div className='tile text'>
           <h2>Stand out to the right audience</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            corporis, facere illo cupiditate libero soluta, cum et iste eveniet
-            doloremque vitae? Cupiditate quas est quam quisquam reiciendis
-            praesentium beatae fugit.
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we'll build and
+            extend your brand in digital places.
           </p>
+          <a href='#'>learn more</a>
         </div>
       </section>
       {/* SERVICES CARDS */}
