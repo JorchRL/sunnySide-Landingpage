@@ -154,6 +154,10 @@
       // outline: 1px solid blue;
       border: none;
       outline: none;
+      @include mobile {
+        width: 50vw;
+        height: calc(50vw * 1.24);
+      }
     }
     #milkImg {
       background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
