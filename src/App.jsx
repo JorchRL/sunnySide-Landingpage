@@ -1,6 +1,7 @@
 import "./app.scss";
 const App = () => {
   return (
+    <div className='container'>
       {/* HERO */}
       <header className='hero'>
         <div className='navbar flex'>
@@ -19,6 +20,7 @@ const App = () => {
           <div className='arrow'></div>
         </div>
       </header>
+
       {/* INFO CARDS */}
       <section className='info flex'>
         <div className='tile text'>
@@ -70,3 +72,8 @@ const App = () => {
       <section className='testimonials flex'></section>
       <section className='pics grid'></section>
       <footer class='footer'></footer>
+    </div>
+  );
+};
+
+export default App;

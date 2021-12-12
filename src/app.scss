@@ -1,3 +1,9 @@
+@import "./globals.scss";
+
+.container {
+  width: 100vw;
+
+  // sections
   .hero {
     height: 100vh;
     width: 100vw;
@@ -22,6 +28,7 @@
       font-family: $fraunces;
     }
   }
+
   .info {
     // grid-template-columns: 1fr 1fr;
     // grid-template-rows: 1fr 1fr;
@@ -80,6 +87,7 @@
       }
     }
   }
+}
 
 .grid {
   display: grid;
