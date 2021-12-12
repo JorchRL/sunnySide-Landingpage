@@ -111,7 +111,20 @@ const App = () => {
       {/* GALLERY */}
       <section className='gallery grid'></section>
       {/* FOOTER */}
-      <footer class='footer'></footer>
+      <footer class='footer flex-col'>
+        <div className='logo'>sunnyside</div>
+        <div className='links'>
+          <a href='#'>About</a>
+          <a href='#'>Services</a>
+          <a href='#'>Projects</a>
+        </div>
+        <div className='socialLinks'>
+          <a href='#' id='facebook'></a>
+          <a href='#' id='instagram'></a>
+          <a href='#' id='twitter'></a>
+          <a href='#' id='pinterest'></a>
+        </div>
+      </footer>
     </div>
   );
 };
