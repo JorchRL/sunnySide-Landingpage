@@ -1,3 +1,35 @@
+  .info {
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: 1fr 1fr;
+    // height: 120vh;
+    // width: calc(720px * 2);
+    flex-wrap: wrap;
+
+    #eggImg {
+      background-image: url("./images/desktop/image-transform.jpg");
+      background-position: top;
+      background-size: cover;
+    }
+    #cupImg {
+      background-image: url("./images/desktop/image-stand-out.jpg");
+      background-position: top;
+      background-size: cover;
+    }
+
+    .tile {
+      // the dimensions of all tiles will be the same as the pics
+      width: calc(100vw / 2);
+      height: calc(100vw / 2);
+      .img {
+      }
+      .text {
+        // border: 2px solid coral;
+        h2 {
+          color: black;
+        }
+      }
+    }
+  }
 
   .services {
     // height: 60vh;
