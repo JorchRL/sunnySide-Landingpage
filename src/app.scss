@@ -137,6 +137,33 @@
 
   // GALLERY
   .gallery {
+    // height: 100vh;
+    // background-color: red;
+    flex-wrap: wrap;
+    .galleryImg {
+      width: 25vw;
+      // keep the 1.24 aspect ratio of the images
+      height: calc(25vw * 1.24);
+      // outline: 1px solid blue;
+      border: none;
+      outline: none;
+    }
+    #milkImg {
+      background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
+      background-size: cover;
+    }
+    #orangeImg {
+      background-image: url("./images/desktop/image-gallery-orange.jpg");
+      background-size: cover;
+    }
+    #coneImg {
+      background-image: url("./images/desktop/image-gallery-cone.jpg");
+      background-size: contain;
+    }
+    #sugarcubesImg {
+      background-image: url("./images/desktop/image-gallery-sugarcubes.jpg");
+      background-size: contain;
+    }
   }
 
   // FOOTER

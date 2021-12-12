@@ -109,7 +109,12 @@ const App = () => {
         </div>
       </section>
       {/* GALLERY */}
-      <section className='gallery grid'></section>
+      <section className='gallery flex'>
+        <div className='galleryImg' id='milkImg'></div>
+        <div className='galleryImg' id='orangeImg'></div>
+        <div className='galleryImg' id='coneImg'></div>
+        <div className='galleryImg' id='sugarcubesImg'></div>
+      </section>
       {/* FOOTER */}
       <footer class='footer flex-col'>
         <div className='logo'>sunnyside</div>
