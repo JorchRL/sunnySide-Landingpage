@@ -98,6 +98,9 @@
 
   // INFO CARDS
   .info {
+    // flex-direction: row;
+    flex-wrap: wrap;
+
     @include mobile {
       flex-direction: column;
     }
@@ -130,6 +133,8 @@
       }
     }
     .img {
+      width: 50vw;
+      height: 50vw;
       @include mobile {
         width: 100vw;
         height: 100vw;
