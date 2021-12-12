@@ -181,6 +181,10 @@
   .footer {
     height: 20vw;
     background-color: $primaryTeal;
+    @include mobile {
+      // make the gallery and footer fill the screen exactly!
+      height: calc(100vh - (2 * 50vw * 1.24));
+    }
   }
 }
 
