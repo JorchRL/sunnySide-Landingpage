@@ -30,6 +30,31 @@ $fraunces: "Fraunces", sans-serif;
 $fraunces-weight-700: 700;
 $fraunces-weight-900: 900;
 
+//// Font sizes ////
+
+$navbarLogo: 2vw;
+$navbarLink: 2vw;
+$navbarContact: 2vw;
+
+$heroHeader: 3vw;
+
+$infoCardHeaderSize: 3vw;
+$infoCardTextSize: 2vw;
+$infoCardLinksize: 3vw;
+
+$servicesHeaderSize: 2vw;
+$servicesTextSize: 1vw;
+
+$testimonialsHeader: 3vw;
+$testimonialCardName: 2vw;
+$testimonialCardText: 1vw;
+$testimonialCardRole: 1vw;
+
+$footerHeader: 2vw;
+$footerLink: 2vw;
+$footerIcon: 2vw;
+
+//// Mixins ////
 @mixin mobile {
   @media (max-width: #{$mobileWidth}) {
     @content;
